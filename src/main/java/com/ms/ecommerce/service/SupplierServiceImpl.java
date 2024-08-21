@@ -10,7 +10,7 @@ public class SupplierServiceImpl implements SupplierService {
     private static SupplierServiceImpl supplierService;
     public static SupplierServiceImpl getInstance(){
         if(supplierService==null){
-            System.out.println("inside if");
+//            System.out.println("inside if");
             supplierService=new SupplierServiceImpl();
             return supplierService;
         }
